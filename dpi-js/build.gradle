@@ -1,0 +1,16 @@
+apply plugin: 'kotlin-platform-js'
+apply plugin: 'kotlin-dce-js'
+
+compileKotlin2Js {
+  kotlinOptions {
+    sourceMap = true
+    sourceMapEmbedSources = 'always'
+  }
+}
+
+dependencies {
+  expectedBy project(':dpi-common')
+
+  compile 'org.jetbrains.kotlin:kotlin-stdlib-js'
+  testCompile 'org.jetbrains.kotlin:kotlin-test-js'
+}

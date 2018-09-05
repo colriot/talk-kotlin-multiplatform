@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">DPI Calculator</string>
+
+  <string name="hint_xxxhdpi">xxxhdpi</string>
+  <string name="hint_xxhdpi">xxhdpi</string>
+  <string name="hint_xhdpi">xhdpi</string>
+  <string name="hint_hdpi">hdpi</string>
+  <string name="hint_mdpi">mdpi (base)</string>
+  <string name="hint_ldpi">ldpi</string>
+  <string name="hint_tvdpi">tvdpi</string>
+</resources>
